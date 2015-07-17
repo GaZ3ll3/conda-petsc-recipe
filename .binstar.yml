@@ -16,5 +16,4 @@ before_script:
 script:
   - conda build . 
   
-build-targets: 
-  - /opt/miniconda/conda-bld/linux-64/petsc-3.5.2-py27_1.tar.bz2
+build-targets: /opt/miniconda/conda-bld/linux-64/petsc-3.5.2-py27_1.tar.bz2
