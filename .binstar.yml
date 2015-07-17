@@ -2,6 +2,7 @@ package: petsc
 
 platform:
   - linux-64
+  - linux-32
   - osx-64
 
 engine:
