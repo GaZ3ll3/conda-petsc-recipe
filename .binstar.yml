@@ -13,4 +13,5 @@ before_script:
 script:
   - conda build . 
   
-build-targets: [conda]
+build-targets: 
+  - conda
