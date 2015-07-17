@@ -6,6 +6,8 @@ platform:
 
 engine:
   - python=2.7
+  
+iotimeout: 300
 
 before_script:
   - echo "Start building!"
